@@ -1,0 +1,27 @@
+.prodyktConteiner{
+    width: 1024px;
+    height: 250px;
+    margin: auto;
+    margin-bottom: 10px;
+    background-color: white;
+    display: flex;
+    border-radius: 5px;
+}
+.prodyktConteiner img{
+    width: 250px;
+    height: 250px;
+}
+.prodyktContent{
+    flex: 1;
+    height: 250px;
+    padding: 0px 15px;
+    overflow-y: auto;
+}
+.prodyctsCost{
+    width: 160px;
+    height: 250px;
+    text-align: center;
+}
+body{
+    background-color: rgb(33, 227, 176);
+}
