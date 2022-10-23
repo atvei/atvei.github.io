@@ -26,9 +26,11 @@ header ul {
     margin: 0 0 0 15px;
 
 }
-header li{
+
+header li {
     float: left;
 }
+
 td img {
     width: 80px;
     border-radius: 15px;
@@ -70,26 +72,31 @@ body {
 a h2 {
     margin: 10px;
 }
-.button:hover{
+
+.button:hover {
     background-color: crimson;
     cursor: pointer;
 }
-.disadled{
+
+.disadled {
     font-weight: bold;
     background-color: crimson;
 }
-@media(max-width:480px){
-    .headerImg{
+
+@media(max-width:480px) {
+    .headerImg {
         content: url(../imeges/prodykts/zaglawnaa.jpg)
     }
-    .header ul{
+
+    .header ul {
         margin: 0;
         padding: 0;
         font-size: small;
     }
-    .post{
-        width:100%;
-        border-radius: 0;
+
+    .post {
+        width: 100%;
+        border-radius: 10;
     }
-    
+
 }
