@@ -52,8 +52,13 @@
                         </tr>
                     </table>
                 </li>
-                <br style="clear:both">
+                
             </ul>
+            <button class="thembutton">
+                <img width="30px" src="imeges/lyna.png">
+                <p>перейти на тёмную сторону</p>
+            </button>
+            <br style="clear:both">
         </header>
 
         <div class="post">
@@ -62,7 +67,7 @@
                 здорова человек,а если ты не человек то это не тебе.
                 <h2>
                     <img width="850" src="https://www.arpeflu.ru/wp-content/uploads/2017/02/1-39.jpg">
-                    <iframe width="1000" height="700" src="https://www.youtube.com/embed/NO96qbBxyg0"
+                    <iframe width="100%" height="500%" src="https://www.youtube.com/embed/NO96qbBxyg0"
                         title="Галилео. Орехи" frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                         allowfullscreen></iframe>
@@ -70,6 +75,26 @@
                     <img width="1000"
                         src="https://on-desktop.com/wps/2020Food___Berries_and_fruits_and_nuts_Many_different_nuts_on_a_wooden_table_140600_.jpg">
                     <p>Орехи это орехи но не все орехи орехи некоторые орехи не орехи но это не точно.</p>
+                    
+                     <div class="like">
+                        <span class="plus">+</span>
+                        <span class="counter">0</span>
+                        <span class="minus">-</span>
+                     </div>
+                     <div class="comment-feed">
+                        <h2>коментарии</h2>
+                         <ol class="comment-list">
+                            <li class="user-comment"> первый коментарии
+                            </li>
+                         </ol>
+                         <form class="comment-form" method="post">
+                         <div class="comment-inner">
+                            <input type="text" class="comment-field" placeholder="коментарий" required id="comment-input">
+                         </div>
+                       
+                         <button class="button" type="submit">отправить</button>
+                        </form>
+                    </div>
         </div>
         <div class="post">
 
@@ -89,6 +114,23 @@
                         является лесной орех. Как и другие плоды, может использоваться животными в пищу, что
                         способствует
                         распространению соответствующих растений.</p>
+                        <div class="like">
+                            <span class="plus">+</span>
+                            <span class="counter">0</span>
+                            <span class="minus">-</span>
+                         </div>
+        </div>
+        <div class="comment-feed">
+            <h2>коментарии</h2>
+             <ol class="comment-list">
+                <li class="user-comment"> первый коментарии
+                </li>
+             </ol>
+             <form class="comment-form" method="post"></form>
+             <div class="comment-inner">
+                <input type="text" class="comment-feed" placeholder="коментарий" required id="comment-input">
+             </div>
+             <button class="button" type="submit">отравить</button>
         </div>
 
         <div class="footer">
@@ -132,5 +174,12 @@
                 </a>
             </div>
         </div>
+
+        <script src="js/themes.js">     
+         
+            
+        </script>
+        
+        <script src="js/likes.js"></script>
 
 </html>
